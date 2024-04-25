@@ -64,7 +64,19 @@ namespace ListaDeContatosT6
 
         public Contato (string nome, string sobrenome, string telefone)
         {
-             
+            Nome = nome;
+            Sobrenome = sobrenome;
+            Telefone = telefone;
+        }
+
+        public override string ToString()
+        {
+            string saida = string.Empty;
+            saida += String.Format("{0} {1}", Nome, Sobrenome);
+            saida += String.Format("({0}) {1}-{2}",
+                Telefone.Substring(0, 2),
+                Telefone.Substring(3, 5),
+                Telefone.Substring(7, 4));
         }
     }
 }
