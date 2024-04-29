@@ -77,6 +77,7 @@ namespace ListaDeContatosT6
                 Telefone.Substring(0, 2),
                 Telefone.Substring(3, 5),
                 Telefone.Substring(7, 4));
+            return saida;
         }
     }
 }

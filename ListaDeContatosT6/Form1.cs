@@ -21,5 +21,17 @@ namespace ListaDeContatosT6
         {
 
         }
+
+        private void Telefone_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonIncluirContato_Click(object sender, EventArgs e)
+        {
+            Contato contato = new Contato();
+
+
+        }
     }
 }
