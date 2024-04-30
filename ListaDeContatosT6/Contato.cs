@@ -44,13 +44,13 @@ namespace ListaDeContatosT6
             }
             set
             {
-                if (value.Length == 13)
+                if (value.Length == 11)
                 {
                     telefone = value;
                 }
                 else
                 {
-                    telefone = "(00) 00000-0000";
+                    telefone = "00000000000";
                 }
             }
         }
@@ -59,7 +59,7 @@ namespace ListaDeContatosT6
         {
             Nome = "Maria";
             Sobrenome = "Guimarães";
-            Telefone = "(11) 98765-4321";
+            Telefone = "11987654321";
         }
 
         public Contato (string nome, string sobrenome, string telefone)
@@ -75,7 +75,7 @@ namespace ListaDeContatosT6
             saida += String.Format("{0} {1}", Nome, Sobrenome);
             saida += String.Format("({0}) {1}-{2}",
                 Telefone.Substring(0, 2),
-                Telefone.Substring(3, 5),
+                Telefone.Substring(2, 5),
                 Telefone.Substring(7, 4));
             return saida;
         }

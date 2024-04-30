@@ -71,6 +71,7 @@
             // 
             // textBoxNome
             // 
+            this.textBoxNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNome.Location = new System.Drawing.Point(164, 41);
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(286, 20);
@@ -92,6 +93,7 @@
             // 
             // buttonIncluirContato
             // 
+            this.buttonIncluirContato.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonIncluirContato.Location = new System.Drawing.Point(82, 254);
             this.buttonIncluirContato.Name = "buttonIncluirContato";
             this.buttonIncluirContato.Size = new System.Drawing.Size(224, 105);
